@@ -4,8 +4,29 @@
             li img{
                 width: 50px;
             }
-            body{
-                font-size: 300%;
+            @keyframes slideInFromLeft {
+                0% {
+                    transform: translateX(-100%);
+                }
+                70%{
+                    transform: translateX(5%);
+                }    
+                100% {
+                    transform: translateX(0);
+                }
+            }
+
+            body {  
+              /* This section calls the slideInFromLeft animation we defined above */
+              animation: 1s ease-out 0s 1 slideInFromLeft;
+              background-color: lightgray;
+              font-size: 300%;
+              padding: 30px;
+            }
+            #foot{
+                text-align: center;
+                font-size: 30%;
+                
             }
         </style>
     </head>
@@ -21,5 +42,7 @@
             <li><a href="https://github.com/rafaelhss/dossoccer" target="_blank">DosSoccer 1</a></li>
             <li><a href="https://lifegame3d.herokuapp.com/home.html" target="_blank">Vida de vaca</a></li>
         </ul>
+        <hr>
+        <div id="foot">rafa's home page</div>
     </body>
 </html>
