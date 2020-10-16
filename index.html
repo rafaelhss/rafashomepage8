@@ -23,6 +23,13 @@
               font-size: 300%;
               padding: 30px;
             }
+            #header{
+                text-align: center;
+                width: 100%;
+            }
+            #subheader{
+                text-align:right;
+            }
             #foot{
                 text-align: center;
                 font-size: 30%;
@@ -60,10 +67,19 @@
             ul{
                 padding-bottom: 50px;
             }
+            #notas  {
+                font-family: sans-serif;
+                font-weight: bold;
+                background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: #fff;                
+            }
         </style>
     </head>
     <body>
-        <h1>Rafa's home page</h1>
+        <h1 id="header">Rafa's home page</h1>
+        <div id="subheader">Coisas que deram trabalho, mas fiz.</div>
        
         <ul>
             <span id="dossoccer">Dossoccer series</span>
@@ -81,11 +97,22 @@
             <li><a href="sherdog/sherdog.php?name=password" target="_blank">Listagem de lutas</a></li>
         </ul>
         <ul>
-            <span id="games">3d games</span>
+            <span id="games">Jogos 3D</span>
             <li><a href="https://pacmary.herokuapp.com" target="_blank">Pac Mary</a><!--<img src="new.gif">--></li>
             <li><a href="https://crugame.herokuapp.com" target="_blank">Cru Game</a></li>
             <li><a href="https://lifegame3d.herokuapp.com/home.html" target="_blank">Vida de vaca</a></li>
         </ul>
+        <ul>
+            <span id="notas">Corre das notas</span>
+            <li><a href="https://www.linkedin.com/in/rafaelhss" target="_blank">LinkedIn</a></li>
+            <li><a href="http://lattes.cnpq.br/6843629399401350" target="_blank">Lattes</a></li>
+            <li><a href="https://www.passeidireto.com/arquivo/22242282/aprendendo-java-na-marra" target="_blank">Versão em portugues do Learning Java the Hard Way de Graham Mitchell</a></li>
+        </ul>
+        <ul>
+            <span>Realizações de destaque</span>
+            <li><a href="https://challonge.com/STREETFIGHTERCPBR10" target="_blank">Quadrifinalista do campeonato de street fighter da Campus Party</a></li>
+            <li><a href="" target="_blank">Campeão de Ginastica Olímpica do CSMA 1990</a></li>
+        </ul>        
         <hr>
         <div id="foot">rafa's home page</div>
         <script>
