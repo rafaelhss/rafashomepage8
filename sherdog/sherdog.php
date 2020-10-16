@@ -108,7 +108,7 @@ div.desc {
                                         <div class="bio_graph">
                                         <span class="card">
                                                 <span class="result">Wins</span>
-                                                <span class="counter">19</span>
+                                                <span class="counter">22</span>
                                             </span>
                                             <span class="graphics">
                                                 <span class="graph" style="width: 0%"></span>
@@ -117,16 +117,16 @@ div.desc {
                                             <span class="graphics">
                                                 <span class="graph" style="width: 16%"></span>
                                             </span>
-                                            <span class="graph_tag">3 SUBMISSIONS (<em>16%</em>)</span>
+                                            <span class="graph_tag">3 SUBMISSIONS (<em>14%</em>)</span>
                                             <span class="graphics">
                                                 <span class="graph" style="width: 84%"></span>
                                             </span>
-                                            <span class="graph_tag">16 DECISIONS (<em>84%</em>)</span>
+                                            <span class="graph_tag">19 DECISIONS (<em>86%</em>)</span>
                                                                                     </div>
                                         <div class="bio_graph loser">
                                             <span class="card">
                                             <span class="result">Losses</span>
-                                            <span class="counter">18</span>
+                                            <span class="counter">21</span>
                                             </span>
                                             <span class="graphics">
                                                 <span class="graph" style="width: 6%"></span>
@@ -135,11 +135,11 @@ div.desc {
                                             <span class="graphics">
                                                 <span class="graph" style="width: 25%"></span>
                                             </span>
-                                            <span class="graph_tag">4 SUBMISSIONS (<em>22%</em>)</span>
+                                            <span class="graph_tag">4 SUBMISSIONS (<em>19%</em>)</span>
                                             <span class="graphics">
                                                 <span class="graph" style="width: 61%"></span>
                                             </span>
-                                            <span class="graph_tag">11 DECISIONS (<em>73%</em>)</span>
+                                            <span class="graph_tag">16 DECISIONS (<em>76%</em>)</span>
                                                                                     </div>
                                     </div>
                                                                     </div>
@@ -171,6 +171,54 @@ div.desc {
 							<td class="col_five">Method</td>
                         </tr>
 			<tr class="even">
+                            <td><span class="final_result loss">loss</span></td>
+                            <td>Jiu Jitsu - NOGI</td>
+                            <td><span itemprop="award">Prime Experience Jiu Jitsu 2020</span><br><span class="sub_line">Set / 19 / 2020</span></td>
+                            <td>Valendo paçoca</td>
+                            <td>MASTER 1 NOGI/<span class="faixa_roxa">ROXA</span>/PESADISSIMO</td>
+                        	<td>Decision</td>
+						</tr>
+			<tr class="odd">
+                            <td><span class="final_result loss">loss</span></td>
+                            <td>Jiu Jitsu - NOGI</td>
+                            <td><span itemprop="award">Prime Experience Jiu Jitsu 2020</span><br><span class="sub_line">Set / 19 / 2020</span></td>
+                            <td>Final</td>
+                            <td>MASTER 1 NOGI/<span class="faixa_roxa">ROXA</span>/PESADISSIMO</td>
+                        	<td>Decision</td>
+						</tr>
+			<tr class="even">
+                            <td><span class="final_result loss">win</span></td>
+                            <td>Jiu Jitsu - NOGI</td>
+                            <td><span itemprop="award">Prime Experience Jiu Jitsu 2020</span><br><span class="sub_line">Set / 19 / 2020</span></td>
+                            <td>Semi-Final</td>
+                            <td>MASTER 1 NOGI/<span class="faixa_roxa">ROXA</span>/PESADISSIMO</td>
+                        	<td>Decision</td>
+						</tr>                            
+			<tr class="odd">
+                            <td><span class="final_result loss">loss</span></td>
+                            <td>Jiu Jitsu - NOGI</td>
+                            <td><span itemprop="award">Brasileiro Centro Oeste NOGI 2020</span><br><span class="sub_line">Fev / 16 / 2020</span></td>
+                            <td>Semi-Final</td>
+                            <td>ABSOLUTO ADULTO + MASTER NOGI/<span class="faixa_roxa">ROXA</span>/PESADO</td>
+                        	<td>Decision</td>
+						</tr>                            
+			<tr class="even">
+                            <td><span class="final_result loss">win</span></td>
+                            <td>Jiu Jitsu - NOGI</td>
+                            <td><span itemprop="award">Brasileiro Centro Oeste NOGI 2020</span><br><span class="sub_line">Fev / 16 / 2020</span></td>
+                            <td>Quartas de Final</td>
+                            <td>ABSOLUTO ADULTO + MASTER NOGI/<span class="faixa_roxa">ROXA</span>/PESADO</td>
+                        	<td>Decision</td>
+						</tr>                            
+			<tr class="odd">
+                            <td><span class="final_result loss">win</span></td>
+                            <td>Jiu Jitsu - NOGI</td>
+                            <td><span itemprop="award">Brasileiro Centro Oeste NOGI 2020</span><br><span class="sub_line">Fev / 16 / 2020</span></td>
+                            <td>Final</td>
+                            <td>MASTER 1 NOGI/<span class="faixa_roxa">ROXA</span>/PESADO</td>
+                        	<td>Decision</td>
+						</tr>                            
+            <tr class="even">
                             <td><span class="final_result loss">loss</span></td>
                             <td>Jiu Jitsu - NOGI</td>
                             <td><span itemprop="award">Mundial NOGI 2020</span><br><span class="sub_line">Jan / 26 / 2020</span></td>
