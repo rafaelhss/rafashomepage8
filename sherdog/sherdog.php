@@ -187,7 +187,7 @@ div.desc {
                         	<td>Decision</td>
 						</tr>
 			<tr class="even">
-                            <td><span class="final_result loss">win</span></td>
+                            <td><span class="final_result win">win</span></td>
                             <td>Jiu Jitsu - NOGI</td>
                             <td><span itemprop="award">Prime Experience Jiu Jitsu 2020</span><br><span class="sub_line">Set / 19 / 2020</span></td>
                             <td>Semi-Final</td>
@@ -203,7 +203,7 @@ div.desc {
                         	<td>Decision</td>
 						</tr>                            
 			<tr class="even">
-                            <td><span class="final_result loss">win</span></td>
+                            <td><span class="final_result win">win</span></td>
                             <td>Jiu Jitsu - NOGI</td>
                             <td><span itemprop="award">Brasileiro Centro Oeste NOGI 2020</span><br><span class="sub_line">Fev / 16 / 2020</span></td>
                             <td>Quartas de Final</td>
@@ -211,7 +211,7 @@ div.desc {
                         	<td>Decision</td>
 						</tr>                            
 			<tr class="odd">
-                            <td><span class="final_result loss">win</span></td>
+                            <td><span class="final_result win">win</span></td>
                             <td>Jiu Jitsu - NOGI</td>
                             <td><span itemprop="award">Brasileiro Centro Oeste NOGI 2020</span><br><span class="sub_line">Fev / 16 / 2020</span></td>
                             <td>Final</td>
