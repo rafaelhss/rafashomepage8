@@ -614,7 +614,7 @@ div.desc {
 </div>
 <script>
     
-    alert("c eh hack memo hein");
+    //alert("c eh hack memo hein");
     
     
     var birthday = new Date("1983-03-23")
