@@ -63,7 +63,8 @@ div.desc {
  <div class="content">
 	<div class="col_left" itemscope="" itemtype="http://schema.org/Person">
         <section>
-            <div class="module bio_fighter vcard">
+            <!--
+		<div class="module bio_fighter vcard">
                                 <h1><span class="fn">Rafael Henrique</span><br><span class="nickname">"<em>Rafa</em>"</span></h1>
                                 <div class="content">
                     <div>
@@ -150,6 +151,7 @@ div.desc {
                 </div>
                 <div class="clear"></div>
             </div>
+-->
         </section>
         
         <!-- Fighter Biography -->
