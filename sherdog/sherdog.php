@@ -172,6 +172,14 @@ div.desc {
                             <td class="col_five">Category</td>
 							<td class="col_five">Method</td>
                         </tr>
+			<tr class="odd">
+                            <td><span class="final_result loss">loss</span></td>
+                            <td>Muay Thai</td>
+                            <td><span itemprop="award">Distrithai 2020</span><br><span class="sub_line">Dez / 06 / 2020</span></td>
+                            <td>Final</td>
+                            <td>PESADISSIMO</td>
+                            <td>Decision</td>
+			</tr>
 			<tr class="even">
                             <td><span class="final_result loss">loss</span></td>
                             <td>Jiu Jitsu - NOGI</td>
