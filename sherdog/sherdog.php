@@ -522,6 +522,7 @@ div.desc {
                 </div>
             </div>
         </section>
+		<!--
 		<section>
 		    <div class="module pictures">
                 <div class="module_header">
@@ -607,7 +608,7 @@ div.desc {
 				</div>
 			</div>
         </section>
-                                        
+                      -->                  
                       
         
     </div>
