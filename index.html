@@ -5,7 +5,6 @@
 <style>
 .content{
   max-width: 100%;
-  margin: auto;
     }
 
 .card {
@@ -41,7 +40,7 @@ img{
    margin-left: -50px; /* Half the width */
 }
 
-a {
+.itens a {
   color: black;
   text-decoration: none; /* no underline */
 }
@@ -54,7 +53,7 @@ a {
 <h1>Rafa's home page 2</h1>
 
 
-<div ng-repeat="x in records">
+<div class="itens" ng-repeat="x in records">
  <a ng-href={{x.c}} target="_blank">
     <div class="card">
       <div class="container">
@@ -66,8 +65,23 @@ a {
       </div>
     </div>
     </a>
-  
 </div>
+<div>
+    <div class="card">
+      <div class="container">
+        <h4><b>Jogos 3d web</b></h4> 
+        <p>
+        	<a href="">Pac Mary</a>
+        	<a href="">Cru Game</a>
+        	<a href="">Vida de vaca</a>
+        </p> 
+      </div>
+      <div class = "right">
+        <img ng-src="{{x.d}}" ng-show=x.d>
+      </div>
+    </div>
+    
+</div>	
 </div>
 
 </body>
