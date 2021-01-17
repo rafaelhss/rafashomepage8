@@ -1,131 +1,91 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            ul img{
-                width: 80px;
-            }
-            @keyframes slideInFromLeft {
-                0% {
-                    transform: translateX(-100%);
-                }
-                70%{
-                    transform: translateX(5%);
-                }    
-                100% {
-                    transform: translateX(0);
-                }
-            }
+<head>
+<meta na
+me="viewport" content="width=device-width, initial-scale=1">
+<style>
+.content{
+  max-width: 50%;
+  margin: auto;
+    }
 
-            body {  
-              /* This section calls the slideInFromLeft animation we defined above */
-              animation: 1s ease-out 0s 1 slideInFromLeft;
-              background-color: lightgray;
-              font-size: 300%;
-              padding: 30px;
-            }
-            #header{
-                text-align: center;
-                width: 100%;
-            }
-            #subheader{
-                text-align:right;
-                font-size: 50%;
-            }
-            #foot{
-                text-align: center;
-                font-size: 30%;
-            }
-            #games {
-                color: #ac07ff;
-                font-family: "Arial Black", Gadget, sans-serif;
-                text-shadow: 0px 0px 0 rgb(158,-7,241),
-                             1px 0px 0 rgb(144,-21,227),
-                             2px 0px 0 rgb(131,-34,214),
-                             3px 0px 0 rgb(117,-48,200),
-                             4px 0px 0 rgb(103,-62,186),
-                             5px 0px 0 rgb(89,-76,172),
-                             6px 0px 0 rgb(76,-89,159),
-                             7px 0px 0 rgb(62,-103,145),
-                             8px 0px 0 rgb(48,-117,131),
-                             9px 0px  0 rgb(34,-131,117),
-                             10px 0px 9px rgba(0,0,0,1),
-                             10px 0px 1px rgba(0,0,0,0.5),
-                             0px 0px 9px rgba(0,0,0,.2);
-             }
-            #dossoccer {
-                background-color: #000;
-                border: 1px solid #DDD;
-                color: #EEEEEE;
-                padding: 8px;
-                font-family: courier new;
-            }
-            #lutas {
-                text-shadow: 2px 0 0 #aaa, -2px 0 0 #bbb, 0 2px 0 #fff, 0 -2px 0 #ccc, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-                color: #ed0105;
-                font-family: sans-serif;
-                font-weight: bold;
-            }
-            ul{
-                padding-bottom: 50px;
-            }
-            #notas  {
-                font-family: sans-serif;
-                font-weight: bold;
-                background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                color: #fff;                
-            }
-        </style>
-    </head>
-    <body>
-        <h1 id="header">Rafa's home page</h1>
-        <div id="subheader">Coisas que deram trabalho, mas fiz.</div>
-       
-        <ul>
-            <span id="dossoccer">Dossoccer series</span>
-            <li><a href="https://www.amazon.com.br/rafael-Futebol-de-cinco/dp/B08KW6Q7GF/" target="_blank">
-                DosSoccer 5 - Futebol de 5 para Amazon Alexa <img src="https://images-na.ssl-images-amazon.com/images/I/51zoXib9epL.png"></a></li>
-            <li><a href="https://dossoccer.herokuapp.com" target="_blank">DosSoccer 3 Mobile - Escenarios Edition </a></li>
-            <li><a href="https://github.com/rafaelhss/dossoccer" target="_blank">DosSoccer 1</a></li>
-        </ul>
-        <ul>
-           <img src="15755.gif"><span id="lutas">Lutas</span>
-            
-            <li><a href="https://www.amazon.com.br/rafael-Casca-Grossa/dp/B08DMYGHS1/" target="_blank">
-                        Casca Grossa para Amazon Alexa <img src="https://images-na.ssl-images-amazon.com/images/I/51Vh833ua0L.png"></a></li>
-            <li><a href="https://milchutes.herokuapp.com" target="_blank">Contador do desafio de mil chutes</a></li>
-            <!--<li><a href="https://soucompetidor.com.br/pt-br/curriculo-campeao/atleta/rafael-henrique-santos-soares/" target="_blank">Curriculo campeao - soucompetidor.com.br</a></li>-->
-            <li><a href="sherdog/sherdog.php?name=password" target="_blank">Listagem de lutas</a></li>
-        </ul>
-        <ul>
-            <span id="games">Jogos 3D</span>
-            <li><a href="https://pacmary.herokuapp.com" target="_blank">Pac Mary</a><!--<img src="new.gif">--></li>
-            <li><a href="https://crugame.herokuapp.com" target="_blank">Cru Game</a></li>
-            <li><a href="https://lifegame3d.herokuapp.com/home.html" target="_blank">Vida de vaca</a></li>
-        </ul>
-        <ul>
-            <span id="notas">Corre das notas</span>
-            <li><a href="https://www.linkedin.com/in/rafaelhss" target="_blank">LinkedIn</a></li>
-            <li><a href="http://lattes.cnpq.br/6843629399401350" target="_blank">Lattes</a></li>
-            <li><a href="https://www.passeidireto.com/arquivo/22242282/aprendendo-java-na-marra" target="_blank">Versão em portugues do Learning Java the Hard Way de Graham Mitchell</a></li>
-        </ul>
-        <ul>
-            <span>Realizações de destaque</span>
-            <li><a href="https://challonge.com/STREETFIGHTERCPBR10" target="_blank">Quadrifinalista do campeonato de street fighter da Campus Party</a></li>
-            <li><a href="" target="_blank">Campeão de Ginastica Olímpica do CSMA 1990</a></li>
-        </ul>        
-        <hr>
-        <div id="foot">rafa's home page</div>
-        <script>
-            const dosscoccertxt = ">DosSoccer series";
-            setInterval(function(){
-                if(document.getElementById("dossoccer").innerHTML.indexOf("_") > 0){
-                   document.getElementById("dossoccer").innerHTML = dosscoccertxt + "&nbsp";
-                } else {
-                   document.getElementById("dossoccer").innerHTML = dosscoccertxt + "_";  
-                }
-            }, 600)
-        </script>
-    </body>
-</html>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  margin: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  width: 80%;
+  line-height: 0.4;
+}
+.right {
+	
+	background-size:100% 100%;
+	width: 20%;
+}
+img{
+	width: 100px;
+    height: 30px;
+    position: relative;
+   top: 50%;
+   left: 50%;
+  margin-top: -15px; /* Half the height */
+   margin-left: -50px; /* Half the width */
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<div class="content">
+<h1>Rafa's home page</h1>
+
+
+<div ng-repeat="x in records">
+ <a ng-href={{x.c}} target="_blank">
+    <div class="card">
+      <div class="container">
+        <h4><b>{{x.a}}</b></h4> 
+        <p>{{x.b}}</p> 
+      </div>
+      <div class = "right">
+        <img ng-src="{{x.d}}" ng-show=x.d>
+      </div>
+    </div>
+    </a>
+  
+</div>
+</div>
+
+</body>
+<script>
+var app = angular.module("myApp", []);
+app.controller("myCtrl", function($scope) {
+    const googlestore = "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png";
+    const github = "https://bachiraoun.github.io/fullrmc/_static/forkme.png";
+    const alexa = "https://www.amazon.com.br/rafael-Futebol-de-cinco/dp/B08KW6Q7GF/";
+    
+    $scope.records = [
+        {a:"Futebol de 5 (Dossoccer 5)", b:"Simulador da modalidade paralimpica futebol de 5 para Amazon Alexa", c:"https://github.com/rafaelhss/rafashomepage8/blob/master/index.html", d:googlestore},
+        {a:"Alfreds Futterkiste", b:"samba", c:"https://bachiraoun.github.io/fullrmc/_static/forkme.png"},
+        {a:"Alfreds Futterkiste", b:"samba"},
+        {a:"Alfreds Futterkiste", b:"samba", c:"https://bachiraoun.github.io/fullrmc/_static/forkme.png"},
+        {a:"Alfreds Futterkiste", b:"samba", c:googlestore}
+    ]
+});
+</script>
+</html> 
