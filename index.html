@@ -49,8 +49,9 @@ img{
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 <body ng-app="myApp" ng-controller="myCtrl">
-<div class="content">
 <h1>Rafa's home page 2</h1>
+
+<div class="content">
 
 
 <div class="itens" ng-repeat="x in records">
@@ -71,17 +72,31 @@ img{
       <div class="container">
         <h4><b>Jogos 3d web</b></h4> 
         <p>
-        	<a href="">Pac Mary</a>
-        	<a href="">Cru Game</a>
-        	<a href="">Vida de vaca</a>
+        	<a href="https://pacmary.herokuapp.com/">Pac Mary</a>
+        	<a href="https://crugame.herokuapp.com/">Cru Game</a>
+        	<a href="https://lifegame3d.herokuapp.com/home.html">Vida de vaca</a>
         </p> 
       </div>
       <div class = "right">
         <img ng-src="{{x.d}}" ng-show=x.d>
       </div>
-    </div>
-    
+    </div>    
 </div>	
+
+<div>
+    <div class="card">
+      <div class="container">
+        <h4><b>Dolla Dolla Bill</b></h4> 
+        <p>
+        	<a href="https://www.linkedin.com/in/rafaelhss">LinkedIn</a>
+        	<a href="http://lattes.cnpq.br/6843629399401350">Lattes</a>
+        </p> 
+      </div>
+      <div class = "right">
+        <img ng-src="{{x.d}}" ng-show=x.d>
+      </div>
+    </div>    
+</div>		
 </div>
 
 </body>
