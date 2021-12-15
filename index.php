@@ -33,16 +33,16 @@
       <li>
           <a href="https://lifegame3d.herokuapp.com/home.html">Vida de vaca</a>
       </li>
-    
-      <li>
+    </ul> 
+
+<ul>
+        <li>
           <a href="https://github.com/rafaelhss/Dossoccer">DosSoccer</a>
       </li>
       <li>
           <a href="https://dossoccer.herokuapp.com">DosSoccer 3 - Mobile</a>
       </li>
-    
-    </ul> 
-
+</ul>
  
 
 
