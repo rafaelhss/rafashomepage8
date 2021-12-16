@@ -1,124 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.content{
-  max-width: 600px;
-	margin: 0 auto;
-    }
+<body bgcolor="cyan" background="https://cutewallpaper.org/21/geocities-backgrounds/backgrounds.jpg">
+<center>
+<font color="yellow" face="Comic Sans MS">
+    <h1>Rafa's Home page <img src="7upspot.gif"></h1>
+    </font>
+    <hr>
+</center>
+  <ul>
+    <li>
+      <a href="https://www.amazon.com.br/rafael-Futebol-de-cinco/dp/B08KW6Q7GF/" target="_blank"> <img src="https://images-na.ssl-images-amazon.com/images/I/51zoXib9epL.png" width="100px" height="100px"> </a>
+    </li>
+    <li>
+      <a href="https://www.amazon.com.br/rafael-Casca-Grossa/dp/B08DMYGHS1/" target="_blank"> <img src="https://images-na.ssl-images-amazon.com/images/I/51Vh833ua0L.png" width="100px" height="100px"> </a>
+    </li>
+  </ul>
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  height: 10%;
-  width: 100%;
-  max-width: 500px;
-  display: flex;
-  margin: 30px;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 2px 16px;
-  width: 80%;
-  line-height: 1;
-}
-.right {
-	
-	background-size:100% 100%;
-	width: 20%;
-}
-img{
-	width: 100px;
-    height: 30px;
-    position: relative;
-   top: 50%;
-   left: 50%;
-  margin-top: -15px; /* Half the height */
-   margin-left: -50px; /* Half the width */
-}
-
-.itens a {
-  color: black;
-  text-decoration: none; /* no underline */
-}
-</style>
-
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-</head>
-<body ng-app="myApp" ng-controller="myCtrl">
-<h1>Rafa's home page</h1>
-
-<div class="content">
-
-
-<div class="itens" ng-repeat="x in records">
- <a ng-href={{x.c}} target="_blank">
-    <div class="card">
-      <div class="container">
-        <h4><b>{{x.a}}</b></h4> 
-        <p>{{x.b}}</p> 
-      </div>
-      <div class = "right">
-        <img ng-src="{{x.d}}" ng-show=x.d>
-      </div>
-    </div>
-    </a>
-</div>
-<div>
-    <div class="card">
-      <div class="container">
-        <h4><b>Jogos 3d web</b></h4> 
-        <p>
-        	<a href="https://pacmary.herokuapp.com/">Pac Mary</a>
-        	<a href="https://crugame.herokuapp.com/">Cru Game</a>
-        	<a href="https://lifegame3d.herokuapp.com/home.html">Vida de vaca</a>
-        </p> 
-      </div>
-      <div class = "right">
-        <img ng-src="{{x.d}}" ng-show=x.d>
-      </div>
-    </div>    
-</div>	
-
-<div>
-    <div class="card">
-      <div class="container">
-        <h4><b>Dolla Dolla Bill</b></h4> 
-        <p>
-        	<a href="https://www.linkedin.com/in/rafaelhss">LinkedIn</a>
-        	<a href="http://lattes.cnpq.br/6843629399401350">Lattes</a>
-        </p> 
-      </div>
-      <div class = "right">
-        <img ng-src="{{x.d}}" ng-show=x.d>
-      </div>
-    </div>    
-</div>		
-</div>
-
-</body>
-<script>
-var app = angular.module("myApp", []);
-app.controller("myCtrl", function($scope) {
-    const googlestore = "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png";
-    const github = "https://bachiraoun.github.io/fullrmc/_static/forkme.png";
-    const alexa = "https://lifeboat.com/images/alexa.big.jpg";
+  <ul>
+    <li>
+      <a href="https://play.google.com/store/apps/details?id=com.frusoft.kicks" target="_blank">
+          <img src="https://play-lh.googleusercontent.com/e7RTBqXSyro4MYW10APFLrqeqX6JVLCYqybQEpQKopb8cBWFLCB0ioIH55_N199BtA=s180-rw" width="100px" height="100px"><img src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png" width="60px" height="15px"> </a>
+    </li>
     
-    $scope.records = [
-        {a:"Futebol de 5 (Dossoccer 5)", b:"Simulador da modalidade paralimpica futebol de 5 para Amazon Alexa", c:"https://www.amazon.com.br/rafael-Futebol-de-cinco/dp/B08KW6Q7GF/", d:alexa},
-        {a:"Mobile Dossoccer 3", b:"Versao web-mobile do DosSoccer. Edicao escenarios! ", c:"https://dossoccer.herokuapp.com"},
-        {a:"NTSoccer (Dossoccer 2)", b:"Fontes do NTSoccer", c:"https://github.com/rafaelhss/NTSoccer", d:github},
-        {a:"DosSoccer", b:"O primeiro RPG de futebol da historia da internet. Um classico!", c:"https://github.com/rafaelhss/dossoccer", d:github},
-        {a:"Casca Grossa", b:"Treinos de Muay Thai e Boxe para Alexa.", c:"https://www.amazon.com.br/rafael-Casca-Grossa/dp/B08DMYGHS1/", d:alexa},
-        {a:"1Kicks - Desafio dos mil chutes", b:"Contador de chutes com calculo da taxa de chutes por segundo e tempo estimado de conclusao.", c:"https://play.google.com/store/apps/details?id=com.frusoft.kicks", d:googlestore},
-        {a:"Listagem de lutas", b:"Se chorei ou se sorri, o importante eh que emocoes eu vivi", c:"sherdog/sherdog.php?name=password"},
-   
-    ]
-});
-</script>
-</html> 
+  </ul>
+
+ <br> <img src="line_dot.gif"> <a href="https://pacmary.herokuapp.com/">Pac Mary</a>
+<br> <img src="line_dot.gif"> <a href="https://crugame.herokuapp.com/">Cru Game</a>
+<br> <img src="line_dot.gif"> <a href="https://lifegame3d.herokuapp.com/home.html">Vida de vaca</a>
+
+    <center>
+    <img src="dogruns.gif">
+    <br>
+    <img src="dog%20(1).jpg" height="200px">
+    <img src="dog%20(2).jpg" height="200px">
+    <img src="dog%20(3).jpg" height="200px">
+    </center>
+    
+    <center>
+        <img src="HeHeartlandCottage5668imagesWorkConstructAnim.gif">
+        <img src="counter.gif">
+        
+    </center>
+</body>
